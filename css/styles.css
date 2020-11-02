@@ -1,0 +1,305 @@
+.main{
+  text-align: center;
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  color: aliceblue;
+}
+
+.start{
+  height: 600px;
+  width: 100%;
+  /* background-image: url(../img/nija.png);
+  background-size:50% auto; */
+  color: rgb(65, 109, 134);
+  
+}
+#ninja{
+  height: 500px;
+  z-index: 1;
+  /* position: relative;
+  top: -300px; */
+  margin-top: -380px;
+  margin-left: 100px;
+}
+.start > h1{
+  padding-top: 170px;
+  /* color: aliceblue; */
+  margin-bottom:0;
+  font-size: 90px;
+  font-family: 'arial black';
+  position: relative;
+  z-index: 3;
+}
+
+.start >p{
+  /* margin: 0 38%; */
+  font-size: 30px;
+  z-index: 3;
+  position: relative;
+}
+
+.dismiss{
+  display: none;
+}
+
+#fot1{
+    height: 300px;
+}
+#fot2{
+    height: 300px;
+}
+#fot3{
+    height: 300px;
+}
+
+#menuH{
+  padding-top: 30px;
+}
+
+#atack{
+  position: relative;
+  top: 10px;
+  left: 250px;
+  font-weight: bold;
+  margin-left: -200px;
+  font-size: 20px;
+  width: 350px;
+}
+.qes{
+  position: relative;
+  top: -400px;
+  left: 430px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 350px;
+}
+.gard{
+  position: relative;
+  top: -880px;
+  left: 800px;
+  /* right: -200px; */
+  /* margin-right: 200px; */
+  font-weight: bold;
+  font-size: 20px;
+  width: 350px;
+}
+
+#fight{
+  color: red;
+  z-index: 1;
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/tatami/tatami2.png);
+  background-size:100% 600px;
+  position: relative;
+}
+
+#fightF1,#fightF2,#fightF3,
+  #fightC1,#fightC2,#fightC3,
+  #fightF2D,#fightF1D,#fightF3D,
+  #fightC1D,#fightC2D,#fightC3D{
+  height: 250px;
+}
+/* #fightF1,#fightF2,#fightF3{
+  height: 300px;
+} */
+#fightF2D,#fightF1D,#fightF3D{
+  margin-left: -20px;
+}
+#fightC2D,#fightC1D,#fightC3D{
+  margin-right: -20px;
+}
+.me{
+  float: left;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+.select{
+  border: white 2px solid;
+  height: 150px;
+  width: 500px;
+  float: right;
+  margin: -10px 200px 0px 0px;
+  border-radius: 10px;
+  background-color: rgba(58, 56, 53, 0.829);
+  z-index: 2;
+  position: relative;
+  color: white;
+}
+
+#which{
+  font-size: 30px;
+  margin-top: -20px;
+ /* font-family: 'arial black'; */
+ font-family: serif;
+}
+#nnn,#baria{
+ margin-right:70px;
+ cursor: pointer;
+}
+#patc,#atc{
+  margin-left: 70px;
+  cursor: pointer;
+}
+#nnn:hover{
+  color: rgb(161, 144, 144);
+}
+#baria:hover{
+  color: rgb(161, 144, 144);
+}
+#patc:hover{
+  color: rgb(161, 144, 144);
+}
+#atc:hover{
+  color: rgb(161, 144, 144);
+}
+
+.textP{
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#damage,#patcT,#bariaT,#nnnT{
+  cursor: pointer;
+}
+
+#cpD{
+  z-index: 2;
+  position: relative;
+  top: -460px;
+  margin-left: 48%;
+  font-size: 20px;
+  color: black;
+}
+#yourHP,#myHP{
+ color: white;
+ font-size: 30px;
+}
+
+#fin{
+  z-index: 3;
+  height: 330px;
+  width: 700px;
+  background-color: rgb(236, 234, 230);
+  position: absolute;
+  position: relative;
+  top: -600px;
+  left: 300px;
+  opacity: 0.9;
+  border-radius: 20px;
+  color: black;
+  line-height: 330px;
+  font-size: 30px;
+}
+
+#restart,#startM{
+  font-size: 22px;
+  position: relative;
+  top: -150px;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin:0 30px;
+  background-color: rgb(73, 73, 187);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#menu{
+  width: 1200px;
+  height: 600px;
+}
+
+.script{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#fotA,#fotB,#fotC{
+  height: 250px;
+  position: relative;
+  top: 0px;
+}
+
+#expEnd{
+  letter-spacing: 10px;
+  opacity: 0.8;
+}
+
+#lets{
+  z-index: 5;
+  background-color: turquoise;
+  height: 200px;
+  width: 700px;
+  line-height: 200px;
+  color: black;
+  position: fixed;
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  font-size: 80px;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+}
+
+
+/* #meP,#yourP{
+  background-color: rgba(43, 37, 58, 0.808);
+  border-radius: 6px;
+  background-size: 200px 70px;
+} */
+
+#fighting{
+  font-family: 'arial black';
+  color: black;
+  font-size: 60px;
+  background-color: white;
+  width: 300px;
+  z-index: 1;
+  position: relative;
+  top: 20px;
+  left: 35%;
+  border-radius: 10px;
+}
+
+#syurikenn,#syuriken,#Csyuriken,
+#sword,#swordR,#swordd,
+#Gsword,#GswordR{
+  height: 50px;
+  position: fixed;
+  position: absolute;
+  z-index: 2;
+}
+#syuriken,#Csyuriken,#sword,
+#swordR,#Gsword,#GswordR{
+  margin-top: 400px;
+  right: 850px;
+  transform: rotate(0.1);
+}
+#swordR,#GswordR{
+  transform: rotate(0);
+}
+
+#sword,#Gsword,#swordR,#GswordR{
+  height: 100px;
+}
+
+#swordd{
+  height: 200px;
+  transform: rotate(0.07turn);
+  right: 550px;
+}
+
+#Gsword{
+  transform: rotate(0.9);
+  margin-top: 300px;
+}
+
+#GswordR{
+  margin-top: 200px;
+  right: 430px;
+  transform: rotate(0.1turn);
+}

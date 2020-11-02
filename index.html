@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>game</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="start" id="start">
+        <h1>-game start-</h1>
+        <p id="startP">please to click</p>
+        <img src="img/nija.png" id="ninja">
+      </div>
+
+      <div class="dismiss" id="menu">
+        <h1 id="menuH">タイプを選んで下さい</h1>
+
+        <div id="atack">
+        <img src="img/da.jpg" id="fot1">
+        <p><span id="ak"></span>アタッカー</p>
+        <p class="script">通常の攻撃力が10上がります。</p>
+        </div>
+
+        <div class="qes">
+          <img src="img/fa.jpg" id="fot2">
+        <p><span id="qes"></span>ファイター</p>
+        <p class="script">必殺技の攻撃力が10上がります。</p>
+        <p id="enter">- Enter key -</p>
+        </div>
+
+        <div class="gard">
+          <img src="img/ra.jpg" id="fot3">
+        <p><span id="gd"></span>アサシン</p>
+        <p class="script">最初から溜めカウント2つを所持してます</p>
+        </div>
+      </div>
+
+      <div class="dismiss" id="exp">
+        <h1>＜ルール説明＞</h1>
+        <p>先にHPを０にした方の勝利です。</p>
+        <p>１ターンに「溜める」「攻撃」「ガード」「必殺技」のいづれかが選択可能ですが、</p>
+        <p>「攻撃」には溜めが1つ、「必殺技」には2つ必要になってきます。</p>
+        <p>攻撃は３０ポイントのダメージを耐える事ができますが、必殺技では５０ポイントのダメージを与える事ができます。
+        </p>
+        <p>また、必殺技は攻撃に打ち勝つ事ができます。</p>
+        <p id="expEnd">-click-</p>
+        <img src="img/da.jpg" id="fotA">
+        <img src="img/fa.jpg" id="fotB">
+        <img src="img/ra.jpg" id="fotC">
+      </div>
+
+
+      
+      <div class="dismiss" id="fight">
+
+        <img src="img/syuriken.png" id="syurikenn">
+        <img src="img/syuriken.png" id="syuriken" class="dismiss">
+        <img src="img/syuriken.png" id="Csyuriken" class="dismiss">
+        <img src="img/sword.png" id="sword" class="dismiss">
+        <img src="img/sword.png" id="Gsword" class="dismiss">
+        <img src="img/swordR.png" id="GswordR" class="dismiss">
+        <img src="img/swordR.png" id="swordR" class="dismiss">
+        <img src="img/sword.png" id="swordd">
+        <div class="dismiss" id="lets">Let's Fighting!!</div>
+         <h1 id="fighting">Fighting</h1>
+
+          <div class="me">
+          <p id="meP">HP<span id="myHP">100 </span> 溜め：<span id="myC">０</span></p>
+          <img src="img/da/daR.png" id="fightF1" class="dismiss">
+          <img src="img/da/daD.png" id="fightF1D" class="dismiss">
+
+          <img src="img/fa/faG.png" id="fightF2" class="dismiss">
+          <img src="img/fa/faD.png" id="fightF2D" class="dismiss">
+
+          <img src="img/ra/raY.png" id="fightF3" class="dismiss">
+          <img src="img/ra/raD.png" id="fightF3D" class="dismiss">
+          
+          </div>
+
+          <div class="you">
+          <p id="yourP">HP<span id="yourHP">100 </span> 溜め：<span id="yourC">０</span></p>
+          <img src="img/da/daB.png" id="fightC1" class="dismiss">
+          <img src="img/da/daDR.png" id="fightC1D" class="dismiss">
+
+          <img src="img/fa/faBR.png" id="fightC2" class="dismiss">
+          <img src="img/fa/faDR.png" id="fightC2D" class="dismiss">
+
+          <img src="img/ra/raBR.png" id="fightC3" class="dismiss">
+          <img src="img/ra/raDR.png" id="fightC3D" class="dismiss">
+        </div>
+
+        <div class="select" id="select">
+
+        <div class="textP">
+
+          <p id="appear"></p>
+
+          <div class="dismiss" id="which">
+              <p><span id="nnn">溜める</span>
+                <span id="atc">攻撃</span></p>
+            <p>
+              <span id="baria">ガード</span>
+              <span id="patc">必殺技</span></p>
+          </div>
+
+          <p id="damage" class="dismiss"></p>
+          <p id="nnnT" class="dismiss"></p>
+          <p id="bariaT" class="dismiss"></p>
+          <p id="patcT" class="dismiss"></p>
+
+        </div>
+
+       </div>
+      </div>
+
+
+
+
+
+        <div id="cpD">
+          <p  class="dismiss" id="cpT"></p>
+        </div>
+        <div id="fin" class="dismiss">
+          <h1 id="finT"></h1>
+          <button id="restart">Restart</button><button id="startM">start Menu</button>
+        </div>
+
+
+        
+        
+
+
+
+
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/jq.js"></script>
+    <script type="text/javascript" src="js/sub.js"></script>
+  </body>
+</html>
